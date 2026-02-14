@@ -145,6 +145,20 @@ This is the list of projects completed in the 2025 programme.
 MuseGan is a GAN-based project for generating multi-track polyphonic music. It can generate coherent 4-bar music for 5 instruments from scratch and also supports Human-AI collaboration by conditionally generating tracks based on one human input track.
 
 ### Output images
+
+#### From-Scratch Model
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27d00a7c-5d2f-4d82-a1fa-c59f3949e5d8" alt="Model Diagram" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b926765e-d4f7-49e5-a967-e3168d6676db" alt="Pianoroll Output" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0351af9d-ffe3-4755-a628-47327e6d899f" alt="Generator Loss" width="400"/>
+  <img src="https://github.com/user-attachments/assets/df9b0600-6f0d-4db4-be56-c18666f18acd" alt="Discriminator Loss" width="400"/>
+</p>
+
+#### Conditional Track
 <p align="center">
   <img src="https://github.com/user-attachments/assets/084d9045-3254-47cf-ad04-376a9f79c8ac" alt="Conditional Model Diagram" width="600"/>
 </p>
@@ -153,8 +167,7 @@ MuseGan is a GAN-based project for generating multi-track polyphonic music. It c
 </p>
 
 ### References
-Checkpoints for this model after 25 epochs: [MuseGan Conditional Track](https://www.kaggle.com/datasets/pratyushrao/musegan-conditional-track-ckpt-25-epooch)  
-Full documentation and details in [musegan.md](./musegan.md)
+All outputs, model checkpoints, and detailed documentation are available in [musegan.md](./musegan.md).
 
 **Mentors:**
 - [Kavya Rambhia](https://github.com/kavya-r30)  
